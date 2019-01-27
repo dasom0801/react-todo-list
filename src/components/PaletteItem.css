@@ -1,0 +1,29 @@
+.palette-wrapper {
+  padding: 1rem;
+  background: #eee;
+}
+
+.palette {
+  display: flex;
+  justify-content: center; 
+}
+
+.color {
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.color:hover {
+  opacity: 0.75;
+}
+
+.color.active {
+  opacity: 1;
+}
+
+.color:first-child {
+  margin-left: 0px;
+}
